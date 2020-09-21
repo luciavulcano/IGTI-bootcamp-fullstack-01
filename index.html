@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>RGB</title>
+</head>
+
+<body>
+
+  <section class="container">
+    <h1 class="title">RGB</h1>
+    <div class="all-inputs">
+      <div class="wrap-input">
+        <input type="range" name="red" id="red" min="0" max="255" value="0">
+        <input type="text" name="redNumber" id="redNumber" disabled size="3" value="0">
+        <label for="red">(R) Vermelho</label>
+      </div>
+      <div class="wrap-input">
+        <input type="range" name="green" id="green" min="0" max="255" value="0">
+        <input type="text" name="greenNumber" id="greenNumber" disabled size="3" value="0">
+        <label for="green">(G) Verde</label>
+      </div>
+      <div class="wrap-input">
+        <input type="range" name="blue" id="blue" min="0" max="255" value="0">
+        <input type="text" name="blueNumber" id="blueNumber" disabled size="3" value="0">
+        <label for="blue">(B) Azul </label>
+      </div>
+    </div>
+    <div class="colorSquare" id="color"></div>
+  </section>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
