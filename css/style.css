@@ -16,16 +16,17 @@
   font-size: 2.5rem;
 }
 
-.all-inputs {
-  display: flex;
-  flex-direction: column;
+label {
+  width: 7.5rem;
 }
 
 .wrap-input {
+  display: flex;
+  align-items: center;
   margin: .5rem 0;
 }
 
-.colorSquare {
+.color-square {
   background-color: rgb(0, 0, 0);
   border-radius: 30%;
   border-style: solid;

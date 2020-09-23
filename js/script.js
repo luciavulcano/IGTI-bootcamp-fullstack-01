@@ -6,9 +6,9 @@ let gValue = document.querySelector('#greenNumber');
 let bValue = document.querySelector('#blueNumber');
 
 window.onload = () => {
-  red.addEventListener('change', changeRed);
-  green.addEventListener('change', changeGreen);
-  blue.addEventListener('change', changeBlue);
+  red.addEventListener('input', changeRed);
+  green.addEventListener('input', changeGreen);
+  blue.addEventListener('input', changeBlue);
 }
 
 function changeRed(event) {
